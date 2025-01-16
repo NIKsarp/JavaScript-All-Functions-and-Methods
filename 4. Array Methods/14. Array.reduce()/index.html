@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Prashant Rastogi" />
+    <meta name="keywords" content="html, css, javascript" />
+    <meta
+      name="description"
+      content="this website is created by Prashant Rastogi"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array.reduce()</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <!-- -------------------------------------------- -->
+    <!-- content-1 -->
+    <section class="content-1 base">
+      <h2 class="title" id="titleName"></h2>
+    </section>
+    <!-- -------------------------------------------- -->
+    <!-- content-2: showInput -->
+    <main class="content-2 base">
+      <div class="block">
+        <span class="copy-btn" id="copyBtn">copy</span>
+        <ol class="code-list" id="textContent">
+          <li>
+            <span class="variable" id="constant"></span>
+            <span class="identifier">arr</span>
+            <span class="operand" id="operand"></span>
+            <span class="function-execute"
+              >[<span class="integar">1</span><span class="comma">,</span>
+              <span class="integar">2</span><span class="comma">,</span>
+              <span class="integar">3</span>];</span
+            >
+          </li>
+          <li>
+            <span class="variable">const</span>
+            <span class="identifier" id="identifier1"></span>
+            <span class="operand">=</span>
+            <span class="identifier">arr</span
+            ><span class="function-method">.reduce</span
+            ><span class="function-execute"
+              >((<span class="function-name"
+                >previousValue<span class="comma">,</span> currentValue</span
+              ><span class="comma">,</span> <span class="integar">0</span>)
+              <span class="variable">=></span>
+              <span class="function-name">previousValue</span> +
+              <span class="function-name">currentValue</span
+              ><span class="comma">,</span>
+              <span class="integar">0</span>);</span
+            >
+          </li>
+          <li>
+            <span class="function-name" id="functionName"></span
+            ><span class="function-method" id="functionMethod"></span
+            ><span class="function-execute">(</span
+            ><span class="string"
+              >`&lt;p&gt;reduce((previousValue, currentValue) => previousValue +
+              currentValue, 0):</span
+            >
+            <span class="variable">${</span
+            ><span class="function-name" id="identifier2"></span
+            ><span class="variable">}</span
+            ><span class="string">&lt;/p&gt;`</span
+            ><span class="function-execute">);</span>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <!-- -------------------------------------------- -->
+    <!-- content-3 -->
+    <section class="content-3 base">
+      <div class="down-arrow"></div>
+    </section>
+    <!-- -------------------------------------------- -->
+    <!-- content-4: showOutput -->
+    <section class="content-4 base">
+      <ol class="code-list">
+        <li>
+          <span class="codeOutput" id="show_answer"></span>
+        </li>
+      </ol>
+    </section>
+    <!-- -------------------------------------------- -->
+  </body>
+  <script src="index.js"></script>
+  <script src="/static/index.js"></script>
+</html>
