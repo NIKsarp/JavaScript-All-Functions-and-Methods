@@ -1,4 +1,13 @@
 // --------------------------------------------
+const content1 = document.getElementById(`content1`);
+const contentTitle = document.createElement("h2");
+const contentText = document.createElement("p");
+contentTitle.className = "title";
+contentText.className = "text";
+contentTitle.id = "titleName";
+contentText.id = "textName";
+content1.append(contentTitle, contentText);
+// --------------------------------------------
 // selecting-elements by id and class
 const functionScopeConst =
   document.getElementsByClassName(`function-scope-const`);
