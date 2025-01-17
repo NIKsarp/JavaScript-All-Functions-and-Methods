@@ -185,7 +185,9 @@ span::selection {
   color: var(--black);
   background-color: var(--white);
 }
-.variable {
+.variable,
+.dollar-curly-braces-open,
+.dollar-curly-braces-close {
   color: #569cd6;
 }
 .function-scope-const {
