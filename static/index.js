@@ -8,15 +8,15 @@ const functionMethod = document.getElementById(`functionMethod`);
 const functionScopeConstLength = functionScopeConst.length;
 for (let index = 0; index < functionScopeConstLength; index++) {
   const element = functionScopeConst[index];
-  element.innerText = "const";
+  element.innerText = `const`;
 }
-operand.innerText = "=";
-functionName.innerText = "document";
-functionMethod.innerText = ".write";
+operand.innerText = `=`;
+functionName.innerText = `document`;
+functionMethod.innerText = `.write`;
 // --------------------------------------------
-const copiedBtn = document.createElement("span");
-copiedBtn.className = "copy-text-done";
-copiedBtn.innerText = "copied";
+const copiedBtn = document.createElement(`span`);
+copiedBtn.className = `copy-text-done`;
+copiedBtn.innerText = `copied`;
 // --------------------------------------------
 const copyBtn = document.getElementById(`copyBtn`);
 const textContent = document.getElementById(`textContent`);
