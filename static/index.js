@@ -1,10 +1,15 @@
 // --------------------------------------------
-const constant = document.getElementById(`constant`);
+const functionScopeConst =
+  document.getElementsByClassName(`function-scope-const`);
 const operand = document.getElementById(`operand`);
 const functionName = document.getElementById(`functionName`);
 const functionMethod = document.getElementById(`functionMethod`);
 // --------------------------------------------
-constant.innerText = "const";
+const functionScopeConstLength = functionScopeConst.length;
+for (let index = 0; index < functionScopeConstLength; index++) {
+  const element = functionScopeConst[index];
+  element.innerText = "const";
+}
 operand.innerText = "=";
 functionName.innerText = "document";
 functionMethod.innerText = ".write";
