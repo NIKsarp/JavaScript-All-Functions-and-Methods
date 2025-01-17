@@ -193,6 +193,9 @@ span::selection {
 .variable {
   color: #569cd6;
 }
+.function-scope-const {
+  color: #569cd6;
+}
 .identifier {
   color: #4fc1ff;
 }
