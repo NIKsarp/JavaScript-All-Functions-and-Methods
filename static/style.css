@@ -199,7 +199,7 @@ span::selection {
 .identifier {
   color: #4fc1ff;
 }
-.operand {
+.operator {
   color: #d4d4d4;
 }
 .function-name {
