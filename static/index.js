@@ -1,4 +1,5 @@
 // --------------------------------------------
+// content1
 const content1 = document.getElementById(`content1`);
 const createElement = (tagName, className, textContent) => {
   const element = document.createElement(tagName);
@@ -61,4 +62,9 @@ copyBtn.addEventListener(`click`, () => {
     copiedBtn.remove();
   }, 3000);
 });
+// --------------------------------------------
+// content3
+const content3 = document.getElementById(`content3`);
+const downArrowNavigation = createElement(`div`, `down-arrow-navigation`);
+content3.appendChild(downArrowNavigation);
 // --------------------------------------------
