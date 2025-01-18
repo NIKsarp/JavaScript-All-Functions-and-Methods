@@ -8,8 +8,8 @@ const createElement = (tagName, className, textContent) => {
 };
 const contentTitle = createElement(`h2`, `title`);
 const contentText = createElement(`p`, `text`);
-contentTitle.id = "titleName";
-contentText.id = "textName";
+contentTitle.id = `titleName`;
+contentText.id = `textName`;
 content1.append(contentTitle, contentText);
 // --------------------------------------------
 // selecting-elements by id and class
@@ -30,7 +30,7 @@ const dollarCurlyBracesClose = document.getElementsByClassName(
 const functionScopeConstLength = functionScopeConst.length;
 for (let index = 0; index < functionScopeConstLength; index++) {
   const element = functionScopeConst[index];
-  element.innerText = `const`;
+  element.appendChild(document.createTextNode(`const`));
 }
 // --------------------------------------------
 // curlyBraces
@@ -38,24 +38,21 @@ const dollarCurlyBracesOpenLength = dollarCurlyBracesOpen.length;
 const dollarCurlyBracesCloseLength = dollarCurlyBracesClose.length;
 for (let index = 0; index < dollarCurlyBracesOpenLength; index++) {
   const element = dollarCurlyBracesOpen[index];
-  element.innerText = "${";
+  element.appendChild(document.createTextNode(`\${`));
 }
 for (let index = 0; index < dollarCurlyBracesCloseLength; index++) {
   const element = dollarCurlyBracesClose[index];
-  element.innerText = "}";
+  element.appendChild(document.createTextNode(`}`));
 }
 // --------------------------------------------
 // innerText
-operand.innerText = `=`;
-functionName.innerText = `document`;
-functionMethod.innerText = `.write`;
+operand.appendChild(document.createTextNode(`=`));
+functionName.appendChild(document.createTextNode(`document`));
+functionMethod.appendChild(document.createTextNode(`.write`));
 // --------------------------------------------
 // copyBtn
-const copiedBtn = document.createElement(`span`);
-copiedBtn.className = `copy-text-done`;
-copiedBtn.innerText = `copied`;
-// --------------------------------------------
 const copyBtn = document.getElementById(`copyBtn`);
+const copiedBtn = createElement(`span`, `copy-text-btn`, `copied`);
 const textContent = document.getElementById(`textContent`);
 copyBtn.addEventListener(`click`, () => {
   copyBtn.appendChild(copiedBtn);
