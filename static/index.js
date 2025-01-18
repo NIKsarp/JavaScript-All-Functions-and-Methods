@@ -52,7 +52,7 @@ functionMethod.appendChild(document.createTextNode(`.write`));
 // --------------------------------------------
 // copyBtn
 const copyBtn = document.getElementById(`copyBtn`);
-const copiedBtn = createElement(`span`, `copy-text-btn`, `copied`);
+const copiedBtn = createElement(`span`, `copy-text-done`, `copied`);
 const textContent = document.getElementById(`textContent`);
 copyBtn.addEventListener(`click`, () => {
   copyBtn.appendChild(copiedBtn);
