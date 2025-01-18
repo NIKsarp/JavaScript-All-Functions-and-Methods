@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "arr";
 // --------------------------------------------
 const arr = [1, 2, 3];
 arr.push(4, 5);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.push(4, 5): ${arr}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.push(4, 5): ${arr}`;

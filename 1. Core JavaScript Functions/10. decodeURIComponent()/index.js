@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "decodeURIComponentResult";
 // --------------------------------------------
 const uriComponent = "a%3Db%26c%3Dd";
 const decodeURIComponentResult = decodeURIComponent(uriComponent);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `decodeURIComponent(uriComponent): ${decodeURIComponentResult}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `decodeURIComponent(uriComponent): ${decodeURIComponentResult}`;

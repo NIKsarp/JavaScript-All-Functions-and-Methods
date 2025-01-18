@@ -7,5 +7,5 @@ titleName.innerText = "Infinity:";
 identifier1.innerText = identifier2.innerText = "isFiniteCheck";
 // --------------------------------------------
 const isFiniteCheck = isFinite(Infinity);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `isFinite(Infinity): ${isFiniteCheck}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `isFinite(Infinity): ${isFiniteCheck}`;

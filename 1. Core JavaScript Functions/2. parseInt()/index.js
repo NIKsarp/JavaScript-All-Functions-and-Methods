@@ -10,5 +10,5 @@ textName.innerText =
 identifier1.innerText = identifier2.innerText = "parseIntValue";
 // --------------------------------------------
 const parseIntValue = parseInt("101", 2);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `parseInt("101", 2): ${parseIntValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `parseInt("101", 2): ${parseIntValue}`;

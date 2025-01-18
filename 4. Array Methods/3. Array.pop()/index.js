@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "arr";
 // --------------------------------------------
 const arr = [1, 2, 3];
 arr.pop();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.pop(): ${arr}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.pop(): ${arr}`;

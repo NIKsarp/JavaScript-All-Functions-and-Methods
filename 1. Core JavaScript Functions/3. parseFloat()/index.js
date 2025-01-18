@@ -9,5 +9,5 @@ textName.innerText = "Converts a string to a floating-point number.";
 identifier1.innerText = identifier2.innerText = "parseFloatValue";
 // --------------------------------------------
 const parseFloatValue = parseFloat("3.14");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `parseFloat("3.14"): ${parseFloatValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `parseFloat("3.14"): ${parseFloatValue}`;

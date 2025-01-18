@@ -11,5 +11,5 @@ identifier1.innerText = identifier2.innerText = "indexOfNumber";
 // --------------------------------------------
 const string = "Hello World!";
 const indexOfNumber = string.indexOf("W");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".indexOf("W"): ${indexOfNumber}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".indexOf("W"): ${indexOfNumber}`;

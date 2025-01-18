@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "sliceString";
 // --------------------------------------------
 const string = "Hello World!";
 const sliceString = string.slice(6, 11);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".slice(6, 11): ${sliceString}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".slice(6, 11): ${sliceString}`;

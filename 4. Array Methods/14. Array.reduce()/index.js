@@ -11,5 +11,5 @@ const reducedArray = arr.reduce(
   (previousValue, currentValue) => previousValue + currentValue,
   0
 );
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.reduce((previousValue, currentValue) => previousValue + currentValue, 0): ${reducedArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.reduce((previousValue, currentValue) => previousValue + currentValue, 0): ${reducedArray}`;

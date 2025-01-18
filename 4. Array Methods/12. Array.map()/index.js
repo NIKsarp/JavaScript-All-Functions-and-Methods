@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "mapArray";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const mapArray = arr.map((num) => num * 2);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.map((num) => num * 2): ${mapArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.map((num) => num * 2): ${mapArray}`;

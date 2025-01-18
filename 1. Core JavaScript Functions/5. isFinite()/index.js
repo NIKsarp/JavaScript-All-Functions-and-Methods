@@ -9,5 +9,5 @@ textName.innerText = "Determines whether a value is a finite number.";
 identifier1.innerText = identifier2.innerText = "isFiniteCheck";
 // --------------------------------------------
 const isFiniteCheck = isFinite(100);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `isFinite(100): ${isFiniteCheck}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `isFinite(100): ${isFiniteCheck}`;

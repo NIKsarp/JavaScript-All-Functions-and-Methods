@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "reversedArray";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const reversedArray = arr.reverse();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.reverse(): ${reversedArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.reverse(): ${reversedArray}`;

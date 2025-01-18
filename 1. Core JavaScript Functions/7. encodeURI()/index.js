@@ -11,5 +11,5 @@ identifier1.innerText = identifier2.innerText = "encodeURIResult";
 // --------------------------------------------
 const uri = "https://example.com/a b";
 const encodeURIResult = encodeURI(uri);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `encodeURI(uri): ${encodeURIResult}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `encodeURI(uri): ${encodeURIResult}`;

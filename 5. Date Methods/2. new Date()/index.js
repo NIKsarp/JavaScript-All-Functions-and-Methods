@@ -9,5 +9,5 @@ textName.innerText = "Creates a new Date object.";
 identifier1.innerText = identifier2.innerText = "currentDate";
 // --------------------------------------------
 const currentDate = new Date();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `new Date(): ${currentDate}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `new Date(): ${currentDate}`;

@@ -10,5 +10,5 @@ textName.innerText =
 identifier1.innerText = identifier2.innerText = "truncValue";
 // --------------------------------------------
 const truncValue = Math.trunc(4.9);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Math.trunc(4.9): ${truncValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Math.trunc(4.9): ${truncValue}`;

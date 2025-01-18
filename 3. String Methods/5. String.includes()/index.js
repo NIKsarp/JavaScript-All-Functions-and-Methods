@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "isIncluded";
 // --------------------------------------------
 const string = "Hello World!";
 const isIncluded = string.includes("World!");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".includes("World!"): ${isIncluded}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".includes("World!"): ${isIncluded}`;

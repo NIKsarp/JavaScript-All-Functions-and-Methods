@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "encodeURIResult";
 // --------------------------------------------
 const uriComponent = "a=b&c=d";
 const encodeURIResult = encodeURIComponent(uriComponent);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `encodeURIComponent(uriComponent): ${encodeURIResult}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `encodeURIComponent(uriComponent): ${encodeURIResult}`;

@@ -9,5 +9,5 @@ textName.innerText = "Rounds a number downward to the nearest integer.";
 identifier1.innerText = identifier2.innerText = "floorValue";
 // --------------------------------------------
 const floorValue = Math.floor(4.8);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Math.floor(4.8): ${floorValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Math.floor(4.8): ${floorValue}`;

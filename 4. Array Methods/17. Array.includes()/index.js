@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "includeArray";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const includeArray = arr.includes(1);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.includes(1): ${includeArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.includes(1): ${includeArray}`;

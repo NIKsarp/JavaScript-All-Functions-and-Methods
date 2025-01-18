@@ -9,5 +9,5 @@ textName.innerText = "Returns the seconds (0-59) of a date.";
 identifier1.innerText = identifier2.innerText = "currentSeconds";
 // --------------------------------------------
 const currentSeconds = new Date().getSeconds();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `new Date().getSeconds(): ${currentSeconds}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `new Date().getSeconds(): ${currentSeconds}`;

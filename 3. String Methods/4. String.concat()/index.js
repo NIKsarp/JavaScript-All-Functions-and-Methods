@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "concatString";
 // --------------------------------------------
 const string = "Hello";
 const concatString = string.concat(" World!");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello".concat(" World!"): ${concatString}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello".concat(" World!"): ${concatString}`;

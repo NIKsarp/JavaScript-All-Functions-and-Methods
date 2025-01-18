@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "subStringResult";
 // --------------------------------------------
 const string = "Hello World!";
 const subStringResult = string.substring(6, 11);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".substring(6, 11): ${subStringResult}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".substring(6, 11): ${subStringResult}`;

@@ -10,5 +10,5 @@ textName.innerText =
 identifier1.innerText = identifier2.innerText = "randomValue";
 // --------------------------------------------
 const randomValue = Math.random();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Math.random(): ${randomValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Math.random(): ${randomValue}`;

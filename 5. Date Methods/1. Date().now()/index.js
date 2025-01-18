@@ -10,5 +10,5 @@ textName.innerText =
 identifier1.innerText = identifier2.innerText = "now";
 // --------------------------------------------
 const now = Date.now();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Date.now(): ${now}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Date.now(): ${now}`;

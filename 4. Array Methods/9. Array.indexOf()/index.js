@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "index";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const index = arr.indexOf(3);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.indexOf(3): ${index}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.indexOf(3): ${index}`;

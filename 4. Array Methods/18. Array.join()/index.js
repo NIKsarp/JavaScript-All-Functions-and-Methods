@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "joinedArray";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const joinedArray = arr.join(" - ");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.join(" - "): ${joinedArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.join(" - "): ${joinedArray}`;

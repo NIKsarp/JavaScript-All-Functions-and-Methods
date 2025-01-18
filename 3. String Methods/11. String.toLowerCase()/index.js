@@ -10,5 +10,5 @@ identifier1.innerText = identifier2.innerText = "lowerCaseString";
 // --------------------------------------------
 const string = "Hello World!";
 const lowerCaseString = string.toLowerCase();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".toLowerCase(): ${lowerCaseString}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".toLowerCase(): ${lowerCaseString}`;

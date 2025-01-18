@@ -9,5 +9,5 @@ textName.innerText = "Converts a date to an ISO string.";
 identifier1.innerText = identifier2.innerText = "currentISOString";
 // --------------------------------------------
 const currentISOString = new Date().toISOString();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `new Date().toISOString(): ${currentISOString}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `new Date().toISOString(): ${currentISOString}`;

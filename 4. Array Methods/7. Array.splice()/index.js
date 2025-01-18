@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "splicedArray";
 // --------------------------------------------
 const arr = [1, 2, 3, 4, 5];
 const splicedArray = arr.splice(1, 3);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.splice(1, 3): ${splicedArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.splice(1, 3): ${splicedArray}`;

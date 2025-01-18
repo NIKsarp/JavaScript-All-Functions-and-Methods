@@ -8,5 +8,5 @@ identifier1.innerText = identifier2.innerText = "findIndexArray";
 // --------------------------------------------
 const arr = [1, 2, 3];
 const findIndexArray = arr.findIndex((num) => num > 1);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.findIndex((num) => num > 1): ${findIndexArray}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.findIndex((num) => num > 1): ${findIndexArray}`;

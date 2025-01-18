@@ -9,5 +9,5 @@ textName.innerText = "Returns the month (0-11) of a date.";
 identifier1.innerText = identifier2.innerText = "currentMonth";
 // --------------------------------------------
 const currentMonth = new Date().getMonth();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `new Date().getMonth(): ${currentMonth}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `new Date().getMonth(): ${currentMonth}`;

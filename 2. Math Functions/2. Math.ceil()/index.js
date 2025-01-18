@@ -9,5 +9,5 @@ textName.innerText = "Rounds a number upward to the nearest integer.";
 identifier1.innerText = identifier2.innerText = "ceilValue";
 // --------------------------------------------
 const ceilValue = Math.ceil(4.2);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Math.ceil(4.2): ${ceilValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Math.ceil(4.2): ${ceilValue}`;

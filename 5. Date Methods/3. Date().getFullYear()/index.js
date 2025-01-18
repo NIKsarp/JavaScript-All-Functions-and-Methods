@@ -9,5 +9,5 @@ textName.innerText = "Returns the year of a date.";
 identifier1.innerText = identifier2.innerText = "currentYear";
 // --------------------------------------------
 const currentYear = new Date().getFullYear();
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `new Date().getFullYear(): ${currentYear}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `new Date().getFullYear(): ${currentYear}`;

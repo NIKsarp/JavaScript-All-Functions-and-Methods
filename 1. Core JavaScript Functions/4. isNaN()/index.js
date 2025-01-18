@@ -9,5 +9,5 @@ textName.innerText = "Determines whether a value is NaN (Not-a-Number).";
 identifier1.innerText = identifier2.innerText = "isNaNCheck";
 // --------------------------------------------
 const isNaNCheck = isNaN("text");
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `isNaN("text"): ${isNaNCheck}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `isNaN("text"): ${isNaNCheck}`;

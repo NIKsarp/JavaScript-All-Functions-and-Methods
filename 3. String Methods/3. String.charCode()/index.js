@@ -11,5 +11,5 @@ identifier1.innerText = identifier2.innerText = "charCodeAtResult";
 // --------------------------------------------
 const string = "Hello World!";
 const charCodeResult = string.charCodeAt(1);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `"Hello World!".charCodeAt(1): ${charCodeResult}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `"Hello World!".charCodeAt(1): ${charCodeResult}`;

@@ -9,5 +9,5 @@ textName.innerText = "Returns the absolute value of a number.";
 identifier1.innerText = identifier2.innerText = "absValue";
 // --------------------------------------------
 const absValue = Math.abs(-42);
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `Math.abs(-42): ${absValue}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `Math.abs(-42): ${absValue}`;

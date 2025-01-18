@@ -9,5 +9,5 @@ identifier1.innerText = identifier2.innerText = "sum";
 const arr = [1, 2, 3];
 let sum = 0;
 arr.forEach((num) => (sum += num));
-const show_answer = document.getElementById(`show_answer`);
-show_answer.innerText = `arr.forEach((num) => (sum += num)): ${sum}`;
+const showAnswer = document.getElementById(`showAnswer`);
+showAnswer.innerText = `arr.forEach((num) => (sum += num)): ${sum}`;
