@@ -4,10 +4,15 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "eval():";
-textName.innerText = "Evaluates JavaScript code represented as a string.";
-identifier1.innerText = identifier2.innerText = "evalValue";
+titleName.appendChild(document.createTextNode(`eval():`));
+textName.appendChild(
+  document.createTextNode(`Evaluates JavaScript code represented as a string.`)
+);
+// --------------------------------------------
+const identifier = `evalValue`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const evalValue = eval("5 + 5");
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `eval("5 + 5"): ${evalValue}`;
+showAnswer.appendChild(document.createTextNode(`eval("5 + 5"): ${evalValue}`));

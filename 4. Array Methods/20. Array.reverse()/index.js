@@ -3,10 +3,15 @@ const titleName = document.getElementById(`titleName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "array.reverse():";
-identifier1.innerText = identifier2.innerText = "reversedArray";
+titleName.appendChild(document.createTextNode(`array.reverse():`));
+// --------------------------------------------
+const identifier = `reversedArray`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const arr = [1, 2, 3];
 const reversedArray = arr.reverse();
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `arr.reverse(): ${reversedArray}`;
+showAnswer.appendChild(
+  document.createTextNode(`arr.reverse(): ${reversedArray}`)
+);

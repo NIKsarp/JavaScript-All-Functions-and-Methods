@@ -4,11 +4,17 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "decodeURI():";
-textName.innerText = "Decodes a URI encoded by encodeURI.";
-identifier1.innerText = identifier2.innerText = "decodeURIResult";
+titleName.appendChild(document.createTextNode(`decodeURI():`));
+textName.appendChild(
+  document.createTextNode(`Decodes a URI encoded by encodeURI.`)
+);
 // --------------------------------------------
+const identifier = `decodeURIResult`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 const uri = "https://example.com/a%20b";
 const decodeURIResult = decodeURI(uri);
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `decodeURI(uri): ${decodeURIResult}`;
+showAnswer.appendChild(
+  document.createTextNode(`decodeURI(uri): ${decodeURIResult}`)
+);

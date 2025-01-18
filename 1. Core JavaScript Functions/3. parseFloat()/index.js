@@ -4,10 +4,17 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "parseFloat():";
-textName.innerText = "Converts a string to a floating-point number.";
-identifier1.innerText = identifier2.innerText = "parseFloatValue";
+titleName.appendChild(document.createTextNode(`parseFloat():`));
+textName.appendChild(
+  document.createTextNode(`Converts a string to a floating-point number.`)
+);
+// --------------------------------------------
+const identifier = `parseFloatValue`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const parseFloatValue = parseFloat("3.14");
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `parseFloat("3.14"): ${parseFloatValue}`;
+showAnswer.appendChild(
+  document.createTextNode(`parseFloat("3.14"): ${parseFloatValue}`)
+);

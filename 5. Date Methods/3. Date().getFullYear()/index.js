@@ -4,10 +4,15 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "date().getFullYear():";
-textName.innerText = "Returns the year of a date.";
-identifier1.innerText = identifier2.innerText = "currentYear";
+titleName.appendChild(document.createTextNode(`date().getFullYear():`));
+textName.appendChild(document.createTextNode(`Returns the year of a date.`));
+// --------------------------------------------
+const identifier = `currentYear`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const currentYear = new Date().getFullYear();
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `new Date().getFullYear(): ${currentYear}`;
+showAnswer.appendChild(
+  document.createTextNode(`new Date().getFullYear(): ${currentYear}`)
+);

@@ -4,10 +4,17 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "date().getFullYear():";
-textName.innerText = "Returns the month (0-11) of a date.";
-identifier1.innerText = identifier2.innerText = "currentMonth";
+titleName.appendChild(document.createTextNode(`date().getFullYear():`));
+textName.appendChild(
+  document.createTextNode(`Returns the month (0-11) of a date.`)
+);
+// --------------------------------------------
+const identifier = `currentMonth`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const currentMonth = new Date().getMonth();
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `new Date().getMonth(): ${currentMonth}`;
+showAnswer.appendChild(
+  document.createTextNode(`new Date().getMonth(): ${currentMonth}`)
+);

@@ -4,10 +4,17 @@ const textName = document.getElementById(`textName`);
 const identifier1 = document.getElementById(`identifier1`);
 const identifier2 = document.getElementById(`identifier2`);
 // --------------------------------------------
-titleName.innerText = "date().getSeconds():";
-textName.innerText = "Returns the seconds (0-59) of a date.";
-identifier1.innerText = identifier2.innerText = "currentSeconds";
+titleName.appendChild(document.createTextNode(`date().getSeconds():`));
+textName.appendChild(
+  document.createTextNode(`Returns the seconds (0-59) of a date.`)
+);
+// --------------------------------------------
+const identifier = `currentSeconds`;
+identifier1.appendChild(document.createTextNode(identifier));
+identifier2.appendChild(document.createTextNode(identifier));
 // --------------------------------------------
 const currentSeconds = new Date().getSeconds();
 const showAnswer = document.getElementById(`showAnswer`);
-showAnswer.innerText = `new Date().getSeconds(): ${currentSeconds}`;
+showAnswer.appendChild(
+  document.createTextNode(`new Date().getSeconds(): ${currentSeconds}`)
+);
