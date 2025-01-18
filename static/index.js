@@ -1,9 +1,13 @@
 // --------------------------------------------
 const content1 = document.getElementById(`content1`);
-const contentTitle = document.createElement("h2");
-const contentText = document.createElement("p");
-contentTitle.className = "title";
-contentText.className = "text";
+const createElement = (tagName, className, textContent) => {
+  const element = document.createElement(tagName);
+  element.className = className;
+  textContent && element.appendChild(document.createTextNode(textContent));
+  return element;
+};
+const contentTitle = createElement(`h2`, `title`);
+const contentText = createElement(`p`, `text`);
 contentTitle.id = "titleName";
 contentText.id = "textName";
 content1.append(contentTitle, contentText);
