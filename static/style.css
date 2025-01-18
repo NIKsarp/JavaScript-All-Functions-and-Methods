@@ -256,14 +256,10 @@ span::selection {
   }
 }
 /* -------------------------------------------- */
-/* content-4: showOutput */
-.content-4 .code-list {
-  text-align: center;
-}
-.content-4 .code-list li::before {
-  content: "";
-}
-.content-4 .codeOutput {
+/* content-4: code-output */
+.content-4 .code-output {
   color: #9cdcfe;
+  display: flex;
+  justify-content: center;
 }
 /* -------------------------------------------- */
