@@ -91,11 +91,9 @@ body {
   }
 }
 /* -------------------------------------------- */
-/* content-2*/
+/* content-2 */
 .content-2 {
   margin-top: 3rem;
-}
-.content-2 .block {
   position: relative;
 }
 .content-2 .copy-btn {
@@ -139,7 +137,7 @@ body {
 /* -------------------------------------------- */
 @media only screen and (max-width: 700px) {
   .content-2 .copy-btn {
-    top: -4rem;
+    top: -2rem;
     cursor: text;
   }
   .content-2 .copy-btn .copy-text-done {
