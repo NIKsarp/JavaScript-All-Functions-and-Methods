@@ -231,8 +231,8 @@ span::selection {
   }
 }
 /* -------------------------------------------- */
-/* content-3: down-arrow */
-.content-3 .down-arrow {
+/* content-3: down-arrow-navigation */
+.content-3 .down-arrow-navigation {
   filter: invert(1);
   background-size: contain;
   background-repeat: no-repeat;
