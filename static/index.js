@@ -68,3 +68,10 @@ const content3 = document.getElementById(`content3`);
 const downArrowNavigation = createElement(`div`, `down-arrow-navigation`);
 content3.appendChild(downArrowNavigation);
 // --------------------------------------------
+// content4
+const content4 = document.getElementById(`content4`);
+const showCodeOutput = createElement(`code`, `code-output`);
+showCodeOutput.id = `showAnswer`;
+showCodeOutput.classList.add(`code-list`);
+content4.appendChild(showCodeOutput);
+// --------------------------------------------
