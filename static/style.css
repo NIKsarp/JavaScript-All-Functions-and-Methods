@@ -242,7 +242,7 @@ span::selection {
   animation-fill-mode: forwards;
   animation-direction: alternate-reverse;
   background-position: center center;
-  background-image: url("/src/image/down-arrow-svgrepo-com.png");
+  background-image: url("../src/image/down-arrow-svgrepo-com.png");
 }
 /* -------------------------------------------- */
 @keyframes bounce {
