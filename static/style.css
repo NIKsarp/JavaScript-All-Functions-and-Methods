@@ -197,6 +197,7 @@ span::selection {
   color: #d4d4d4;
 }
 .dom-function-document,
+.dom-function-document-dot-write,
 .function-name {
   color: #9cdcfe;
 }
