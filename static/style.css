@@ -158,7 +158,6 @@ body {
 /* -------------------------------------------- */
 /* code-list */
 .code-list {
-  z-index: -1;
   line-height: 1.5;
   position: relative;
   padding: var(--gap);
