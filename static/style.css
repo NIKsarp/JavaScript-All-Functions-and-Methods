@@ -197,11 +197,11 @@ span::selection {
   color: #d4d4d4;
 }
 .dom-function-document,
-.dom-function-document-dot-write,
 .function-name {
   color: #9cdcfe;
 }
-.function-method {
+.function-method,
+.dom-function-document-dot-write {
   color: #dcdcaa;
 }
 .function-object {
