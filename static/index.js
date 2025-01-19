@@ -67,13 +67,11 @@ for (let index = 0; index < dollarCurlyBracesCloseLength; index++) {
 const domFunctionDocumentLength = domFunctionDocument.length;
 for (let index = 0; index < domFunctionDocumentLength; index++) {
   const element = domFunctionDocument[index];
-  console.log(element);
   element.appendChild(document.createTextNode(`document`));
 }
 const domFunctionDocumentDotWriteLength = domFunctionDocumentDotWrite.length;
 for (let index = 0; index < domFunctionDocumentDotWriteLength; index++) {
   const element = domFunctionDocumentDotWrite[index];
-  console.log(element);
   element.appendChild(document.createTextNode(`.write`));
 }
 
