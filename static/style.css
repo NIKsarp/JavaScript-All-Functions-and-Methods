@@ -193,7 +193,7 @@ span::selection {
 .identifier {
   color: #4fc1ff;
 }
-.operator {
+.equal-to-operator {
   color: #d4d4d4;
 }
 .dom-function-document,
