@@ -18,8 +18,12 @@ content1.append(contentTitle, contentText);
 const functionScopeConst =
   document.getElementsByClassName(`function-scope-const`);
 const equalToOperator = document.getElementsByClassName(`equal-to-operator`);
-const functionName = document.getElementById(`functionName`);
-const functionMethod = document.getElementById(`functionMethod`);
+const domFunctionDocument = document.getElementsByClassName(
+  `dom-function-document`
+);
+const domFunctionDocumentDotWrite = document.getElementsByClassName(
+  `dom-function-document-dot-write`
+);
 
 // --------------------------------------------
 const dollarCurlyBracesOpen = document.getElementsByClassName(
@@ -59,10 +63,19 @@ for (let index = 0; index < dollarCurlyBracesCloseLength; index++) {
 }
 
 // --------------------------------------------
-// innerText
-// operand.appendChild(document.createTextNode(`=f`));
-functionName.appendChild(document.createTextNode(`document`));
-functionMethod.appendChild(document.createTextNode(`.write`));
+// append TextNode
+const domFunctionDocumentLength = domFunctionDocument.length;
+for (let index = 0; index < domFunctionDocumentLength; index++) {
+  const element = domFunctionDocument[index];
+  console.log(element);
+  element.appendChild(document.createTextNode(`document`));
+}
+const domFunctionDocumentDotWriteLength = domFunctionDocumentDotWrite.length;
+for (let index = 0; index < domFunctionDocumentDotWriteLength; index++) {
+  const element = domFunctionDocumentDotWrite[index];
+  console.log(element);
+  element.appendChild(document.createTextNode(`.write`));
+}
 
 // --------------------------------------------
 // content2
