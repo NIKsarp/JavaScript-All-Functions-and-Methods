@@ -12,6 +12,7 @@ const contentText = createElement(`p`, `text`);
 contentTitle.id = `titleName`;
 contentText.id = `textName`;
 content1.append(contentTitle, contentText);
+
 // --------------------------------------------
 // selecting-elements by id and class
 const functionScopeConst =
@@ -19,6 +20,7 @@ const functionScopeConst =
 const operand = document.getElementById(`operand`);
 const functionName = document.getElementById(`functionName`);
 const functionMethod = document.getElementById(`functionMethod`);
+
 // --------------------------------------------
 const dollarCurlyBracesOpen = document.getElementsByClassName(
   `dollar-curly-braces-open`
@@ -26,6 +28,7 @@ const dollarCurlyBracesOpen = document.getElementsByClassName(
 const dollarCurlyBracesClose = document.getElementsByClassName(
   `dollar-curly-braces-close`
 );
+
 // --------------------------------------------
 // const
 const functionScopeConstLength = functionScopeConst.length;
@@ -33,6 +36,7 @@ for (let index = 0; index < functionScopeConstLength; index++) {
   const element = functionScopeConst[index];
   element.appendChild(document.createTextNode(`const`));
 }
+
 // --------------------------------------------
 // curlyBraces
 const dollarCurlyBracesOpenLength = dollarCurlyBracesOpen.length;
@@ -45,16 +49,20 @@ for (let index = 0; index < dollarCurlyBracesCloseLength; index++) {
   const element = dollarCurlyBracesClose[index];
   element.appendChild(document.createTextNode(`}`));
 }
+
 // --------------------------------------------
 // innerText
 operand.appendChild(document.createTextNode(`=`));
 functionName.appendChild(document.createTextNode(`document`));
 functionMethod.appendChild(document.createTextNode(`.write`));
+
 // --------------------------------------------
-// copyBtn
-const copyBtn = document.getElementById(`copyBtn`);
+// content2
+const content2 = document.getElementById(`content2`);
+const copyBtn = createElement(`span`, `copy-btn`, `copy`);
 const copiedBtn = createElement(`span`, `copy-text-done`, `copied`);
 const textContent = document.getElementById(`textContent`);
+content2.appendChild(copyBtn);
 copyBtn.addEventListener(`click`, () => {
   copyBtn.appendChild(copiedBtn);
   navigator.clipboard.writeText(textContent.innerText);
@@ -62,11 +70,13 @@ copyBtn.addEventListener(`click`, () => {
     copiedBtn.remove();
   }, 3000);
 });
+
 // --------------------------------------------
 // content3
 const content3 = document.getElementById(`content3`);
 const downArrowNavigation = createElement(`div`, `down-arrow-navigation`);
 content3.appendChild(downArrowNavigation);
+
 // --------------------------------------------
 // content4
 const content4 = document.getElementById(`content4`);
@@ -74,4 +84,5 @@ const showCodeOutput = createElement(`code`, `code-output`);
 showCodeOutput.id = `showAnswer`;
 showCodeOutput.classList.add(`code-list`);
 content4.appendChild(showCodeOutput);
+
 // --------------------------------------------
