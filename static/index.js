@@ -17,7 +17,7 @@ content1.append(contentTitle, contentText);
 // selecting-elements by id and class
 const functionScopeConst =
   document.getElementsByClassName(`function-scope-const`);
-const operand = document.getElementById(`operand`);
+const equalToOperator = document.getElementsByClassName(`equal-to-operator`);
 const functionName = document.getElementById(`functionName`);
 const functionMethod = document.getElementById(`functionMethod`);
 
@@ -38,6 +38,14 @@ for (let index = 0; index < functionScopeConstLength; index++) {
 }
 
 // --------------------------------------------
+// equal-to-operator
+const equalToOperatorLength = equalToOperator.length;
+for (let index = 0; index < equalToOperatorLength; index++) {
+  const element = equalToOperator[index];
+  element.appendChild(document.createTextNode(`=`));
+}
+
+// --------------------------------------------
 // curlyBraces
 const dollarCurlyBracesOpenLength = dollarCurlyBracesOpen.length;
 const dollarCurlyBracesCloseLength = dollarCurlyBracesClose.length;
@@ -52,7 +60,7 @@ for (let index = 0; index < dollarCurlyBracesCloseLength; index++) {
 
 // --------------------------------------------
 // innerText
-operand.appendChild(document.createTextNode(`=`));
+// operand.appendChild(document.createTextNode(`=f`));
 functionName.appendChild(document.createTextNode(`document`));
 functionMethod.appendChild(document.createTextNode(`.write`));
 
