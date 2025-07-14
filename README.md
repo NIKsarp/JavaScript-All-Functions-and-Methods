@@ -1,1 +1,1 @@
-Here is the description of my work
+This git repository have all types of functions & methods in JavaScript.
